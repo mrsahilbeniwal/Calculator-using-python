@@ -1,0 +1,19 @@
+#taking input for both numbers and operators for the calculations
+First_number = input("What is your first number?   ")
+Operator = input("What operator will you use?    ")
+Second_number = input("What is your second number?     ")
+#specifying that the first and second input numbers are integers
+First_number = int(First_number)
+Second_number = int(Second_number)
+#code for if and else condition 
+if Operator == "+":
+    print(First_number + Second_number)
+elif Operator == "-":
+    print(First_number - Second_number)
+elif Operator == "*":
+    print(First_number * Second_number)
+elif Operator == "/":
+    print(First_number / Second_number)
+elif Operator == "%":
+    print(First_number % Second_number)
+else: print("Invalid calculation")
